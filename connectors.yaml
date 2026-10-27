@@ -1,0 +1,7 @@
+connectors:
+  - id: fcb
+    command: start_fcb
+    title: Find critical bugs
+    webhook_url_env: FCB_WEBHOOK_URL
+    webhook_key_env: FCB_WEBHOOK_KEY
+    timeout: 45m
